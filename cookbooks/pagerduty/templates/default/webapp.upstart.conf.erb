@@ -1,0 +1,12 @@
+#!upstart
+
+description	"webapp server"
+
+start on runlevel [2345]
+stop on runlevel [!2345]
+
+setuid vagrant
+expect fork
+respawn
+
+exec /home/vagrant/sinatra_hello/webapp_launcher
