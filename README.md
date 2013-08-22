@@ -1,5 +1,5 @@
 details
-======
+=======
 
 I used this project to better familiarize myself with chef.  Previous
 to this my experience with chef was a simple deploy using their online
@@ -12,13 +12,15 @@ It all gets created using templates, but I kept parser.rb in the root of
 this project so it is easier to find.
 
 Assumptions:
-	-Vagrant 1.2.7
-	-precise32 box
+------------
+	- Vagrant 1.2.7
+	- precise32 box
 
 Files created:
-	Vagrantfile
-	parser.rb
-	cookbooks/rvm/recipes/sinatra.rb
-	cookbooks/pagerduty/apt.rb
-	cookbooks/pagerduty/webapp.rb
-	cookbooks/pagerduty/templates/default/*
+--------------
+	- Vagrantfile
+	- parser.rb
+	- cookbooks/rvm/recipes/sinatra.rb
+	- cookbooks/pagerduty/apt.rb
+	- cookbooks/pagerduty/webapp.rb
+	- cookbooks/pagerduty/templates/default/*
